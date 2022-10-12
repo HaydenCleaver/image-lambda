@@ -5,7 +5,7 @@
 ### How-to-use
 
 - Upload .jpg image to hrc-img-bucket on AWS S3 app.
-- Lambda function should automatically update the images.json file
+- Lambda function should automatically update the images.json file with a new `data:` section within the body. 
 
 ### Issues
 
